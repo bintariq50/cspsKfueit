@@ -4,8 +4,8 @@ import "slick-carousel/slick/slick-theme.css";
 import {Link} from "react-router-dom"
 export default function Hero() {
   const images = [
-    "/src/assets/hero/group.jpeg",
-    "/src/assets/hero/group-2.jpeg",
+    "/hero/group.jpeg",
+    "hero/group-2.jpeg",
   ];
 
   const settings = {
