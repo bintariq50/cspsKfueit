@@ -23,19 +23,18 @@ export default function Members() {
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold mb-10">Meet Our Members</h2>
 
-        <motion.div
+        <div
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
           variants={containerVariants}
-          initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
         >
           {members.map((member) => (
-            <motion.div key={member.id} variants={cardVariants}>
+            <div key={member.id} variants={cardVariants}>
               <Member member={member} />
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

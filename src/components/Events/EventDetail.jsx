@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import eventsData from "./eventData";
 
 export default function EventDetail() {
-  const { id } = useParams();
+    const { id } = useParams();
   const event = eventsData.find((e) => e.id === parseInt(id));
   const [selectedIndex, setSelectedIndex] = useState(null);
 
