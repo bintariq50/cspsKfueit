@@ -18,7 +18,7 @@ const members = [
   {
     id: 2,
     prefix: "Mr",
-    firstName: "Hunain",
+    firstName: "Hunain Ali",
     lastName: "Shahid",
     designation: "President",
     image: "",
